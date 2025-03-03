@@ -1,0 +1,26 @@
+@page ""
+@using ApplicationCore.Models.QuizAggregate
+@model BackendLab01.Pages.Quiz.IndexModel;
+@{
+ViewData["Title"] = "Quiz ";
+Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>All Quizzes</h1>
+<table class="table">
+    <thead>
+    <tr>
+        <th>Tytuł</th>
+        <th>Liczba pytań</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (Quiz quiz in @Model.Quizzes)
+    {
+    <tr>
+        <td><a asp-page="/Quiz/Item" asp-route-quizId=@quiz.Id asp-route-itemIndex=0>@quiz.Title</a></td>
+        <td>@quiz.Items.Count</td>
+    </tr>
+    }
+    </tbody>
+</table>
