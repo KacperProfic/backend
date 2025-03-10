@@ -1,8 +1,9 @@
 @page "/chatroom"
 @inject NavigationManager navigationManager
+@using ApplicationCore.ChatService
 @using Microsoft.AspNetCore.SignalR.Client
 @rendermode InteractiveServer
-
+@inject IChatUserService ChatUserService
 <h3>ChatRoom</h3>
 
 <h1>Blazor SignalR Chat Sample</h1>
@@ -33,20 +34,6 @@ else
         <button class="btn btn-sm btn-warning ml-md-auto" @onclick="@DisconnectAsync">Disconnect</button>
     </div>
 
-    <!-- Lista użytkowników online -->
-    <div class="users-list">
-        <h4>Users online:</h4>
-        <ul>
-            @foreach (var user in _users)
-            {
-                <li>
-                    @user
-                    <button @onclick="() => SendPrivateMessage(user)">Send Private Message</button>
-                </li>
-            }
-        </ul>
-    </div>
-
     <!-- Wyświetlanie wiadomości -->
     <div id="scrollbox">
         @foreach (var item in _messages)
@@ -66,10 +53,18 @@ else
         <hr />
         <textarea class="input-lg" placeholder="Enter your comment" @bind="@_newMessage"></textarea>
         <button class="btn btn-default" @onclick="@(() => SendAsync(_newMessage))">Send</button>
+        <select class="form-select" @bind="@_to">
+            <option value="All">All</option>
+            @foreach (var user in ChatUserService.GetAll().Where(u => u.Username != _username))
+            {
+                <option value="@user.Username">@user.Username</option>
+            }
+        </select>
     </div>
 }
 
 @code {
+    private string _to = "All";
     private bool _isChatting = false;  // Czy użytkownik jest w trakcie czatowania
     private string _username;  // Nazwa użytkownika
     private string _message;  // Wiadomość błędu
@@ -81,6 +76,11 @@ else
     private HubConnection _hubConnection;
 
     // Funkcja do rozpoczęcia czatu
+    private void PrivateMessage(string name, string message)
+    {
+        _messages.Add(new Message(name, $"[Private]: {message}", false));
+        InvokeAsync(StateHasChanged);
+    }
     public async Task Chat()
     {
         if (string.IsNullOrWhiteSpace(_username))
@@ -103,12 +103,14 @@ else
                 .WithUrl(_hubUrl)
                 .Build();
 
-            _hubConnection.On<string, string>("Broadcast", BroadcastMessage);  // Nasłuchiwanie wiadomości broadcast
+            _hubConnection.On<string, string>("Broadcast", BroadcastMessage);
+            _hubConnection.On<string, string>("Private", PrivateMessage);// Nasłuchiwanie wiadomości broadcast
             _hubConnection.On<List<string>>("UpdateUserList", UpdateUserList);  // Nasłuchiwanie aktualizacji listy użytkowników
             _hubConnection.On<string, string>("ReceivePrivateMessage", ReceivePrivateMessage);  // Nasłuchiwanie wiadomości prywatnych
 
             await _hubConnection.StartAsync();
-            await _hubConnection.SendAsync("AddUser", _username);  // Wysyłanie nazwy użytkownika do huba
+            await _hubConnection.SendAsync("AddUser", _username);
+            ChatUserService.Add(_hubConnection.ConnectionId, _username);// Wysyłanie nazwy użytkownika do huba
             await SendAsync($"[Notice] {_username} joined chat room.");  // Wiadomość powitalna
         }
         catch (Exception e)
@@ -158,7 +160,7 @@ else
             await SendAsync($"[Notice] {_username} left chat room.");  // Wiadomość informująca o opuszczeniu czatu
             await _hubConnection.StopAsync();
             await _hubConnection.DisposeAsync();
-
+            ChatUserService.RemoveByName(_username);
             _hubConnection = null;
             _isChatting = false;
         }
@@ -169,7 +171,20 @@ else
     {
         if (_isChatting && !string.IsNullOrWhiteSpace(message))
         {
-            await _hubConnection.SendAsync("Broadcast", _username, message);  // Wysyłanie wiadomości do wszystkich
+            if (_to == "All")
+            {
+                await _hubConnection.SendAsync("Broadcast", _username, message);
+            }
+            else
+            {
+                var connectionId = ChatUserService.GetConnectionIdByName(_to);
+                if (!string.IsNullOrEmpty(connectionId))
+                {
+                    await _hubConnection.SendAsync("SendPrivateMessage", _to, message); // Use existing hub method
+                    _messages.Add(new Message(_username, $"[Private to {_to}]: {message}", true)); // Show sent private message
+                    InvokeAsync(StateHasChanged);
+                }
+            }
             _newMessage = string.Empty;
         }
     }
