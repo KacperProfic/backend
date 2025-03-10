@@ -9,3 +9,15 @@ C:\Users\Kacper\Desktop\wsei-backend-lab-lab-01\ApplicationCore\obj\Debug\net8.0
 C:\Users\Kacper\Desktop\wsei-backend-lab-lab-01\ApplicationCore\obj\Debug\net8.0\refint\ApplicationCore.dll
 C:\Users\Kacper\Desktop\wsei-backend-lab-lab-01\ApplicationCore\obj\Debug\net8.0\ApplicationCore.pdb
 C:\Users\Kacper\Desktop\wsei-backend-lab-lab-01\ApplicationCore\obj\Debug\net8.0\ref\ApplicationCore.dll
+C:\Users\Kacper\RiderProjects\backend\ApplicationCore\bin\Debug\net8.0\ApplicationCore.deps.json
+C:\Users\Kacper\RiderProjects\backend\ApplicationCore\bin\Debug\net8.0\ApplicationCore.dll
+C:\Users\Kacper\RiderProjects\backend\ApplicationCore\bin\Debug\net8.0\ApplicationCore.pdb
+C:\Users\Kacper\RiderProjects\backend\ApplicationCore\obj\Debug\net8.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kacper\RiderProjects\backend\ApplicationCore\obj\Debug\net8.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\Kacper\RiderProjects\backend\ApplicationCore\obj\Debug\net8.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\Kacper\RiderProjects\backend\ApplicationCore\obj\Debug\net8.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\Kacper\RiderProjects\backend\ApplicationCore\obj\Debug\net8.0\ApplicationCore.sourcelink.json
+C:\Users\Kacper\RiderProjects\backend\ApplicationCore\obj\Debug\net8.0\ApplicationCore.dll
+C:\Users\Kacper\RiderProjects\backend\ApplicationCore\obj\Debug\net8.0\refint\ApplicationCore.dll
+C:\Users\Kacper\RiderProjects\backend\ApplicationCore\obj\Debug\net8.0\ApplicationCore.pdb
+C:\Users\Kacper\RiderProjects\backend\ApplicationCore\obj\Debug\net8.0\ref\ApplicationCore.dll

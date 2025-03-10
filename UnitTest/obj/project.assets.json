@@ -8698,11 +8698,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\UnitTest\\UnitTest.csproj",
+      "projectUniqueName": "C:\\Users\\Kacper\\RiderProjects\\backend\\UnitTest\\UnitTest.csproj",
       "projectName": "UnitTest",
-      "projectPath": "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\UnitTest\\UnitTest.csproj",
+      "projectPath": "C:\\Users\\Kacper\\RiderProjects\\backend\\UnitTest\\UnitTest.csproj",
       "packagesPath": "C:\\Users\\Kacper\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\UnitTest\\obj\\",
+      "outputPath": "C:\\Users\\Kacper\\RiderProjects\\backend\\UnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
@@ -8721,22 +8721,22 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\ApplicationCore\\ApplicationCore.csproj": {
-              "projectPath": "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\ApplicationCore\\ApplicationCore.csproj"
+            "C:\\Users\\Kacper\\RiderProjects\\backend\\ApplicationCore\\ApplicationCore.csproj": {
+              "projectPath": "C:\\Users\\Kacper\\RiderProjects\\backend\\ApplicationCore\\ApplicationCore.csproj"
             },
-            "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\Kacper\\RiderProjects\\backend\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Kacper\\RiderProjects\\backend\\Infrastructure\\Infrastructure.csproj"
             }
           }
         },
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\ApplicationCore\\ApplicationCore.csproj": {
-              "projectPath": "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\ApplicationCore\\ApplicationCore.csproj"
+            "C:\\Users\\Kacper\\RiderProjects\\backend\\ApplicationCore\\ApplicationCore.csproj": {
+              "projectPath": "C:\\Users\\Kacper\\RiderProjects\\backend\\ApplicationCore\\ApplicationCore.csproj"
             },
-            "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\Kacper\\RiderProjects\\backend\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Kacper\\RiderProjects\\backend\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

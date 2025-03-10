@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GYNLttjTTsU=",
+  "dgSpecHash": "1hN3yGfelGg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\Web\\Web.csproj",
+  "projectFilePath": "C:\\Users\\Kacper\\RiderProjects\\backend\\Web\\Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kacper\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Kacper\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.11\\microsoft.aspnetcore.razor.language.6.0.11.nupkg.sha512",
@@ -157,11 +157,7 @@
     "C:\\Users\\Kacper\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\Kacper\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\Kacper\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\Kacper\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Kacper\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.13\\microsoft.netcore.app.ref.8.0.13.nupkg.sha512",
-    "C:\\Users\\Kacper\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.13\\microsoft.windowsdesktop.app.ref.8.0.13.nupkg.sha512",
-    "C:\\Users\\Kacper\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.13\\microsoft.aspnetcore.app.ref.8.0.13.nupkg.sha512",
-    "C:\\Users\\Kacper\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.13\\microsoft.netcore.app.host.win-x64.8.0.13.nupkg.sha512"
+    "C:\\Users\\Kacper\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

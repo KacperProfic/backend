@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\ApplicationCore\\ApplicationCore.csproj": {}
+    "C:\\Users\\Kacper\\RiderProjects\\backend\\ApplicationCore\\ApplicationCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\ApplicationCore\\ApplicationCore.csproj": {
+    "C:\\Users\\Kacper\\RiderProjects\\backend\\ApplicationCore\\ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "C:\\Users\\Kacper\\RiderProjects\\backend\\ApplicationCore\\ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\ApplicationCore\\ApplicationCore.csproj",
+        "projectPath": "C:\\Users\\Kacper\\RiderProjects\\backend\\ApplicationCore\\ApplicationCore.csproj",
         "packagesPath": "C:\\Users\\Kacper\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\ApplicationCore\\obj\\",
+        "outputPath": "C:\\Users\\Kacper\\RiderProjects\\backend\\ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [

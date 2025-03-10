@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\Web\\Web.csproj": {}
+    "C:\\Users\\Kacper\\RiderProjects\\backend\\Web\\Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\ApplicationCore\\ApplicationCore.csproj": {
+    "C:\\Users\\Kacper\\RiderProjects\\backend\\ApplicationCore\\ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "C:\\Users\\Kacper\\RiderProjects\\backend\\ApplicationCore\\ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\ApplicationCore\\ApplicationCore.csproj",
+        "projectPath": "C:\\Users\\Kacper\\RiderProjects\\backend\\ApplicationCore\\ApplicationCore.csproj",
         "packagesPath": "C:\\Users\\Kacper\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\ApplicationCore\\obj\\",
+        "outputPath": "C:\\Users\\Kacper\\RiderProjects\\backend\\ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
@@ -104,14 +104,14 @@
         }
       }
     },
-    "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\Kacper\\RiderProjects\\backend\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Kacper\\RiderProjects\\backend\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Kacper\\RiderProjects\\backend\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Kacper\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Kacper\\RiderProjects\\backend\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
@@ -130,16 +130,16 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\ApplicationCore\\ApplicationCore.csproj"
+              "C:\\Users\\Kacper\\RiderProjects\\backend\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\Kacper\\RiderProjects\\backend\\ApplicationCore\\ApplicationCore.csproj"
               }
             }
           },
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\ApplicationCore\\ApplicationCore.csproj"
+              "C:\\Users\\Kacper\\RiderProjects\\backend\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\Kacper\\RiderProjects\\backend\\ApplicationCore\\ApplicationCore.csproj"
               }
             }
           }
@@ -224,14 +224,14 @@
         }
       }
     },
-    "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\Web\\Web.csproj": {
+    "C:\\Users\\Kacper\\RiderProjects\\backend\\Web\\Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\Web\\Web.csproj",
+        "projectUniqueName": "C:\\Users\\Kacper\\RiderProjects\\backend\\Web\\Web.csproj",
         "projectName": "Web",
-        "projectPath": "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\Web\\Web.csproj",
+        "projectPath": "C:\\Users\\Kacper\\RiderProjects\\backend\\Web\\Web.csproj",
         "packagesPath": "C:\\Users\\Kacper\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\Web\\obj\\",
+        "outputPath": "C:\\Users\\Kacper\\RiderProjects\\backend\\Web\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
@@ -239,7 +239,6 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0",
           "net9.0"
         ],
         "sources": {
@@ -247,25 +246,14 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\ApplicationCore\\ApplicationCore.csproj"
-              },
-              "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\Infrastructure\\Infrastructure.csproj"
-              }
-            }
-          },
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\ApplicationCore\\ApplicationCore.csproj"
+              "C:\\Users\\Kacper\\RiderProjects\\backend\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\Kacper\\RiderProjects\\backend\\ApplicationCore\\ApplicationCore.csproj"
               },
-              "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\Kacper\\RiderProjects\\backend\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Kacper\\RiderProjects\\backend\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -282,53 +270,6 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[7.0.4, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.13, 8.0.13]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[8.0.13, 8.0.13]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.13, 8.0.13]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.13, 8.0.13]"
-            }
-          ],
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Kacper\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
-        },
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {

@@ -4,7 +4,7 @@
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <RootNamespace>BackendLab01</RootNamespace>
-        <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+        <TargetFrameworks>net9.0</TargetFrameworks>
         <LangVersion>12</LangVersion>
     </PropertyGroup>
 

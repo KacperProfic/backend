@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WdfrZhKWb0g=",
+  "dgSpecHash": "yg7KuOg/SuY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kacper\\Desktop\\wsei-backend-lab-lab-01\\UnitTest\\UnitTest.csproj",
+  "projectFilePath": "C:\\Users\\Kacper\\RiderProjects\\backend\\UnitTest\\UnitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kacper\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\Kacper\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",
