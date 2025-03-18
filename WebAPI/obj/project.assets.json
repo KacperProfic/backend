@@ -230,6 +230,22 @@
           }
         }
       },
+      "Scalar.AspNetCore/2.0.36": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Scalar.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Scalar.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "ApplicationCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -598,6 +614,23 @@
         "microsoft.openapi.nuspec"
       ]
     },
+    "Scalar.AspNetCore/2.0.36": {
+      "sha512": "piAamX1ArrRA3+Vgz8FaO+oeintpD+qD4d5DmGcW+RtKB76H7FIqZifemPzOEl8cJYjhmwYr81gJOPaJF9+5KQ==",
+      "type": "package",
+      "path": "scalar.aspnetcore/2.0.36",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net8.0/Scalar.AspNetCore.dll",
+        "lib/net8.0/Scalar.AspNetCore.xml",
+        "lib/net9.0/Scalar.AspNetCore.dll",
+        "lib/net9.0/Scalar.AspNetCore.xml",
+        "scalar.aspnetcore.2.0.36.nupkg.sha512",
+        "scalar.aspnetcore.nuspec"
+      ]
+    },
     "ApplicationCore/1.0.0": {
       "type": "project",
       "path": "../ApplicationCore/ApplicationCore.csproj",
@@ -613,7 +646,8 @@
     "net9.0": [
       "ApplicationCore >= 1.0.0",
       "Infrastructure >= 1.0.0",
-      "Microsoft.AspNetCore.OpenApi >= 9.0.2"
+      "Microsoft.AspNetCore.OpenApi >= 9.0.2",
+      "Scalar.AspNetCore >= 2.0.36"
     ]
   },
   "packageFolders": {
@@ -676,6 +710,10 @@
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[9.0.2, )"
+          },
+          "Scalar.AspNetCore": {
+            "target": "Package",
+            "version": "[2.0.36, )"
           }
         },
         "imports": [
