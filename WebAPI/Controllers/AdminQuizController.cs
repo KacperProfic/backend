@@ -47,7 +47,9 @@ public class AdminQuizController : ControllerBase
         _quizRepository.Add(quiz);
         return CreatedAtAction(nameof(GetQuizById), new { id = quiz.Id }, QuizDto.Of(quiz));
     }
-
+ 
+    
+    
     [HttpDelete]
     [Route("{id}")]
     public IActionResult DeleteQuiz(int id)

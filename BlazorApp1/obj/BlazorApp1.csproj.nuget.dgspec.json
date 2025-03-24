@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\kacper.profic\\RiderProjects\\backend\\BlazorApp1\\BlazorApp1.csproj": {}
+    "C:\\Users\\Kacper\\RiderProjects\\backend\\BlazorApp1\\BlazorApp1.csproj": {}
   },
   "projects": {
-    "D:\\Users\\kacper.profic\\RiderProjects\\backend\\ApplicationCore\\ApplicationCore.csproj": {
+    "C:\\Users\\Kacper\\RiderProjects\\backend\\ApplicationCore\\ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\kacper.profic\\RiderProjects\\backend\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "C:\\Users\\Kacper\\RiderProjects\\backend\\ApplicationCore\\ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "D:\\Users\\kacper.profic\\RiderProjects\\backend\\ApplicationCore\\ApplicationCore.csproj",
-        "packagesPath": "D:\\Users\\kacper.profic\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\kacper.profic\\RiderProjects\\backend\\ApplicationCore\\obj\\",
+        "projectPath": "C:\\Users\\Kacper\\RiderProjects\\backend\\ApplicationCore\\ApplicationCore.csproj",
+        "packagesPath": "C:\\Users\\Kacper\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kacper\\RiderProjects\\backend\\ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "D:\\Users\\kacper.profic\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Kacper\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -49,8 +45,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -66,12 +61,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.13, 8.0.13]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\Kacper\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         },
         "net9.0": {
           "targetAlias": "net9.0",
@@ -91,25 +100,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\Kacper\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Users\\kacper.profic\\RiderProjects\\backend\\BlazorApp1\\BlazorApp1.csproj": {
+    "C:\\Users\\Kacper\\RiderProjects\\backend\\BlazorApp1\\BlazorApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\kacper.profic\\RiderProjects\\backend\\BlazorApp1\\BlazorApp1.csproj",
+        "projectUniqueName": "C:\\Users\\Kacper\\RiderProjects\\backend\\BlazorApp1\\BlazorApp1.csproj",
         "projectName": "BlazorApp1",
-        "projectPath": "D:\\Users\\kacper.profic\\RiderProjects\\backend\\BlazorApp1\\BlazorApp1.csproj",
-        "packagesPath": "D:\\Users\\kacper.profic\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\kacper.profic\\RiderProjects\\backend\\BlazorApp1\\obj\\",
+        "projectPath": "C:\\Users\\Kacper\\RiderProjects\\backend\\BlazorApp1\\BlazorApp1.csproj",
+        "packagesPath": "C:\\Users\\Kacper\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kacper\\RiderProjects\\backend\\BlazorApp1\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "D:\\Users\\kacper.profic\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Kacper\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -123,8 +128,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Users\\kacper.profic\\RiderProjects\\backend\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "D:\\Users\\kacper.profic\\RiderProjects\\backend\\ApplicationCore\\ApplicationCore.csproj"
+              "C:\\Users\\Kacper\\RiderProjects\\backend\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\Kacper\\RiderProjects\\backend\\ApplicationCore\\ApplicationCore.csproj"
               }
             }
           }
@@ -138,8 +143,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net9.0": {
@@ -169,7 +173,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\Kacper\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

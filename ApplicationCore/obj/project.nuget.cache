@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "cFuHULMAplY=",
+  "dgSpecHash": "bKcx/OZ6eQ0=",
   "success": true,
-  "projectFilePath": "D:\\Users\\kacper.profic\\RiderProjects\\backend\\ApplicationCore\\ApplicationCore.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Kacper\\RiderProjects\\backend\\ApplicationCore\\ApplicationCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kacper\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.13\\microsoft.netcore.app.ref.8.0.13.nupkg.sha512",
+    "C:\\Users\\Kacper\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.13\\microsoft.windowsdesktop.app.ref.8.0.13.nupkg.sha512",
+    "C:\\Users\\Kacper\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.13\\microsoft.aspnetcore.app.ref.8.0.13.nupkg.sha512"
+  ],
   "logs": []
 }
