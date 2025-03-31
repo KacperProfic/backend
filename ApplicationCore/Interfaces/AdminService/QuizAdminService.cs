@@ -38,4 +38,23 @@ public class QuizAdminService:IQuizAdminService
     public List<Quiz> FindAllQuizzes()
     { return quizRepository.FindAll();
     }
+    public void AddQuizItemToQuiz(int quizId, QuizItem item)
+    {
+        var quiz = quizRepository.FindAll().FirstOrDefault(q => q.Id == quizId);
+        if (quiz != null)
+        {
+            quiz.Items.Add(item);
+            itemRepository.Add(item);
+        }
+    }
+    
+    public void DeleteQuiz(int quizId)
+    {
+        quizRepository.RemoveById(quizId);
+    }
+
+    public void UpdateQuiz(int quizId, Quiz quiz)
+    {
+        quizRepository.Update(quizId, quiz);
+    }
 }

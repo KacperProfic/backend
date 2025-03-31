@@ -1,3 +1,4 @@
+using AutoMapper;
 using BackendLab01;
 using Microsoft.AspNetCore.Mvc;
 using Dto;
@@ -9,10 +10,12 @@ namespace WebAPI.Controllers;
 public class QuizController : ControllerBase
 {
     private readonly IQuizUserService _service;
+    private readonly IMapper _mapper;
 
-    public QuizController(IQuizUserService service)
+    public QuizController(IQuizUserService service,IMapper mapper)
     {
         _service = service;
+        _mapper = mapper;
     }
 
     [HttpGet]
@@ -46,5 +49,22 @@ public class QuizController : ControllerBase
     {
         var count = _service.CountCorrectAnswersForQuizFilledByUser(quizId, userId);
         return Ok(new QuizScoreDto { QuizId = quizId, UserId = userId, CorrectAnswers = count });
+    }
+    [HttpGet]
+    [Route("{quizId}/feedback/{userId}")]
+    public ActionResult<FeedbackDto> GetQuizFeedback(int quizId, int userId)
+    {
+        var quiz = _service.FindQuizById(quizId);
+        if (quiz is null) return NotFound();
+
+        var feedback = _service.GetUserAnswersForQuiz(quizId, userId);
+        var feedbackDto = new FeedbackDto
+        {
+            QuizId = quizId,
+            UserId = userId,
+            TotalQuestions = quiz.Items.Count,
+            Answers = _mapper.Map<IEnumerable<FeedbackDto.AnswerFeedbackDto>>(feedback)
+        };
+        return Ok(feedbackDto);
     }
 }

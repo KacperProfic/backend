@@ -80,3 +80,12 @@ C:\Users\Kacper\RiderProjects\backend\WebAPI\obj\Debug\net9.0\refint\WebAPI.dll
 C:\Users\Kacper\RiderProjects\backend\WebAPI\obj\Debug\net9.0\WebAPI.pdb
 C:\Users\Kacper\RiderProjects\backend\WebAPI\obj\Debug\net9.0\WebAPI.genruntimeconfig.cache
 C:\Users\Kacper\RiderProjects\backend\WebAPI\obj\Debug\net9.0\ref\WebAPI.dll
+C:\Users\Kacper\RiderProjects\backend\WebAPI\bin\Debug\net9.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Kacper\RiderProjects\backend\WebAPI\bin\Debug\net9.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Kacper\RiderProjects\backend\WebAPI\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\Kacper\RiderProjects\backend\WebAPI\bin\Debug\net9.0\Newtonsoft.Json.Bson.dll
+C:\Users\Kacper\RiderProjects\backend\WebAPI\bin\Debug\net9.0\AutoMapper.dll
+C:\Users\Kacper\RiderProjects\backend\WebAPI\bin\Debug\net9.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Kacper\RiderProjects\backend\WebAPI\bin\Debug\net9.0\FluentValidation.dll
+C:\Users\Kacper\RiderProjects\backend\WebAPI\bin\Debug\net9.0\FluentValidation.AspNetCore.dll
+C:\Users\Kacper\RiderProjects\backend\WebAPI\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll

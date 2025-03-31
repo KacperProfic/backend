@@ -18,7 +18,8 @@ public class QuizItemDto
     public static QuizItemDto Of(QuizItem quiz)
     {
         var options = new List<string>(quiz.IncorrectAnswers) { quiz.CorrectAnswer };
-        options = options.OrderBy(x => Guid.NewGuid()).ToList(); // Randomize order
+        var random = new Random();
+        options = options.OrderBy(x => random.Next()).ToList();
         return new QuizItemDto(quiz.Id, quiz.Question, options);
     }
 }

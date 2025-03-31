@@ -9,4 +9,7 @@ public interface IQuizAdminService
     public Quiz AddQuiz(string title, List<QuizItem> items);
     public List<QuizItem> FindAllQuizItems();
     public List<Quiz> FindAllQuizzes();
+    public void AddQuizItemToQuiz(int quizId, QuizItem item);
+    public void DeleteQuiz(int quizId);
+    public void UpdateQuiz(int quizId, Quiz quiz);
 }
